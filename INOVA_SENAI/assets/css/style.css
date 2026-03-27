@@ -31,12 +31,6 @@ a{
     color: white;
 }
 
-img{
-    height: 50px;
-    width: 50px;
-    max-width: 100%;
-}
-
 abbr{
     font-style: normal;
     text-decoration: none;
@@ -49,6 +43,19 @@ body {
     flex-direction: column;
 }
 
+
 main {
     flex: 1;
+}
+
+h1{
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    background-color: #e30613;
+    color: white;
+    padding-top: 20px;
+    
 }
