@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bloco.css" />
+
+    <title>Bloco de notas</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Bloco de Anotações</h1>
+      <p class="subtitle">Salve automaticamente suas anotações no navegador.</p>
+      <div class="input-group">
+        <input
+          type="text"
+          id="newItemInput"
+          placeholder="Digite um novo item principal..."
+          autocomplete="off"
+        />
+        <button class="btn-primary" onclick="addItem()">Adicionar item</button>
+      </div>
+      <ul class="notes-list" id="notesList"></ul>
+    </div>
+  </body>
+</html>
